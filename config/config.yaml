@@ -230,13 +230,13 @@ storage:
   remote:
     retention_days: 0                 # 保留天数（0=永久保留）
     # S3 兼容配置（或使用环境变量 S3_ENDPOINT_URL 等）
-    endpoint_url: "https://f9387541bde35122e46422b81b93c2ed.r2.cloudflarestorage.com"                  # 服务端点
+    endpoint_url: ""                  # 服务端点
                                       # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
                                       # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
                                       # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
-    bucket_name: "bucket4gitbub"                   # 存储桶名称
-    access_key_id: "ce7bbf677637112de8c65d6f2b7e5758"                 # 访问密钥 ID
-    secret_access_key: "32a75fed1897d003fcb163070e994398a47264ec4a5593f72b8d18325d457d52"             # 访问密钥
+    bucket_name: ""                   # 存储桶名称
+    access_key_id: ""                 # 访问密钥 ID
+    secret_access_key: ""             # 访问密钥
     region: ""                        # 区域（可选，部分服务商需要）
 
   # 数据拉取配置（从远程同步到本地）
